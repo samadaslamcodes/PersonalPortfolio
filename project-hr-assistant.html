@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="AI HR Assistant - A smart recruitment tool for automated resume screening and job matching">
+    <title>AI HR Assistant | Project Details</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        .project-detail {
+            min-height: 100vh;
+            padding: 100px 60px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .back-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            background: var(--glass-bg);
+            border: 1px solid var(--glass-border);
+            border-radius: 50px;
+            color: var(--text-secondary);
+            font-weight: 500;
+            margin-bottom: 30px;
+            transition: var(--transition-medium);
+        }
+
+        .back-btn:hover {
+            background: var(--primary);
+            border-color: var(--primary);
+            color: white;
+        }
+
+        .project-hero {
+            display: flex;
+            gap: 50px;
+            margin-bottom: 50px;
+        }
+
+        .project-preview {
+            flex: 1.5;
+        }
+
+        .demo-frame {
+            width: 100%;
+            height: 500px;
+            border-radius: 16px;
+            border: 2px solid var(--glass-border);
+            background: var(--bg-dark);
+            overflow: hidden;
+        }
+
+        .demo-frame iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* If we want to use iframe instead of image when user clicks, or just use image preview */
+        /* For now, using image preview as provided link might be slow to load in iframe or restricted */
+
+        .project-info {
+            flex: 1;
+        }
+
+        .project-title {
+            font-family: var(--font-heading);
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .project-tech {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 25px;
+        }
+
+        .tech-tag {
+            padding: 6px 16px;
+            background: rgba(205, 95, 248, 0.15);
+            border: 1px solid var(--primary);
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            color: var(--primary);
+        }
+
+        .project-description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+        }
+
+        .project-features {
+            list-style: none;
+            margin-bottom: 40px;
+        }
+
+        .project-features li {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 0;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--glass-border);
+        }
+
+        .project-features li i {
+            color: var(--primary);
+            font-size: 1.1rem;
+        }
+
+        .project-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .btn-primary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 30px;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            color: white;
+            font-family: var(--font-heading);
+            font-weight: 600;
+            border-radius: 50px;
+            transition: var(--transition-medium);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(205, 95, 248, 0.4);
+        }
+
+        .btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 14px 30px;
+            background: transparent;
+            border: 2px solid var(--primary);
+            color: var(--primary);
+            font-family: var(--font-heading);
+            font-weight: 600;
+            border-radius: 50px;
+            transition: var(--transition-medium);
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Responsive */
+        @media (max-width: 992px) {
+            .project-hero {
+                flex-direction: column;
+            }
+
+            .demo-frame {
+                height: 400px;
+            }
+
+            .project-detail {
+                padding: 100px 30px 60px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .project-title {
+                font-size: 2rem;
+            }
+
+            .demo-frame {
+                height: 300px;
+            }
+
+            .project-buttons {
+                flex-direction: column;
+            }
+
+            .btn-primary,
+            .btn-secondary {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <h1>Abdul's Portfolio</h1>
+        <ul class="nav-list">
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    <i class="fa-solid fa-user"></i>
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="projects.html">
+                    <i class="fa-solid fa-tv"></i>
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <i class="fa-brands fa-facebook-messenger"></i>
+                    <span>Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Project Detail -->
+    <section class="project-detail">
+        <a href="projects.html" class="back-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+            Back to Projects
+        </a>
+
+        <div class="project-hero">
+            <div class="project-preview">
+                <div class="demo-frame">
+                    <iframe src="https://hr-assistant-production.up.railway.app/" title="AI HR Assistant Demo"
+                        loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <div class="project-info">
+                <h1 class="project-title">AI HR Assistant</h1>
+
+                <div class="project-tech">
+                    <span class="tech-tag">HTML</span>
+                    <span class="tech-tag">CSS</span>
+                    <span class="tech-tag">JavaScript</span>
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Flask</span>
+                </div>
+
+                <p class="project-description">
+                    An intelligent HR recruitment tool specifically designed to streamline the hiring process.
+                    It uses advanced algorithms to analyze resumes and check their compatibility with job
+                    descriptions, providing recruiters with actionable insights.
+                </p>
+
+                <ul class="project-features">
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>CV Analysis - Automated resume parsing</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Compatibility Scoring - AI-driven candidate matching</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Admin Dashboard - Manage jobs and candidates</span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check-circle"></i>
+                        <span>Secure Auth - Role-based access control</span>
+                    </li>
+                </ul>
+
+                <div class="project-buttons">
+                    <a href="https://hr-assistant-production.up.railway.app/" target="_blank" class="btn-primary">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        Live Demo
+                    </a>
+                    <a href="https://github.com/samadaslamcodes/HR-Assistant.git" target="_blank" class="btn-secondary">
+                        <i class="fa-brands fa-github"></i>
+                        See Code
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/7b403c5ea4.js" crossorigin="anonymous"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+
+</html>

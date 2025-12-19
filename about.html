@@ -1,73 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="./styles/about.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About Abdul Samad - Learn more about my background, skills, and interests.">
+  <title>About Me | Abdul Samad</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
+
 <body>
-    <nav class="navbar">
-        <h1> Abdul's Portfolio</h1>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <h1>Abdul's Portfolio</h1>
+    <ul class="nav-list">
+      <li>
+        <a href="index.html">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="fa-solid fa-user"></i>
+          <span>About Me</span>
+        </a>
+      </li>
+      <li>
+        <a href="projects.html">
+          <i class="fa-solid fa-tv"></i>
+          <span>Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-
-        <ul class="nav-list">
-            <li><a href="index.html"> <i style="font-size: 0.9rem; padding-bottom: 8px;" class="fa-solid fa-house"></i>
-                    Home</a> </li>
-            <li><a href="./about.html"> <i style="padding: 4px;" class="fa-solid fa-user"></i>About Me</a></li>
-            <li><a href="./projects.html"> <i class="fa-solid fa-tv"></i> Projects</a></li>
-            <li><a href=""><i style="padding: 4px;" class="fa-solid fa-person"></i> My Journey</a></li>
-            <li style="color: white;"><a href=""> <i style="padding: 4px;"
-                        class="fa-brands fa-facebook-messenger"></i>Contact Me</a></li>
-        </ul>
-    </nav>
-
-    <div class="ban">
-
-        <div class="working">
-            <h1 style=" color: white; margin-top: 160px; padding-top: 80px; font-weight: normal; margin-right: 320px; font-family: sans-serif;"  > Let me introduce <span style="color:#cd5ff8 ; font-weight: bolder; font-style: italic;"> Myself</span><i style="padding: 11px; font-size: 2.4rem; cursor: pointer;" class="fa-regular fa-face-smile-wink"></i> </h1>
-            <p style="color: white; font-size: 1.4rem; margin-bottom: 240px; margin-top: 120px; margin-left: 40px;;">Hi everyone this is <span style="color: #cd5ff8; font-weight: bolder; font-style: oblique;">Abdul Samad</span> from Karachi , Pakistan <br>I'm a <span style= "color: #cd5ff8; font-weight: bolder; font-style: italic;"> Student</span> and currently an undergraduate in  <span  style="color: #cd5ff8; font-weight: bolder; font-style: italic;"> Bachelors</span> of<br> <span style= "color: #cd5ff8; font-weight: bolder; font-style: italic;">Computer Science</span> from Mohammad Ali Jinnah University and <br>
-            i am  currently learning  <span style="color: #cd5ff8; font-weight: bolder; font-style: italic;">MERN STACK Development </span> From Saylani MASS IT Training.  <br>
-        <br>  Althought i love to :<br> <span style="color: #cd5ff8; font-weight: bold;"> Play Football</span> <br> <span style="color: #cd5ff8; font-weight: bold;"> Being  with Friends</span>  <br> <span style="color: #cd5ff8; font-weight: bold;"> Watching Movies and Webseries</span> 
-    </p>
-        </div>
-        <div class="imgsection">
-            <img  src="media.png" height="420px" alt="">
-        </div>
+  <!-- Hero About Section -->
+  <section class="ban">
+    <div class="working">
+      <h2>Let me introduce <span class="highlight">Myself</span> <i class="fa-regular fa-face-smile-wink"></i></h2>
+      <p>
+        Hi everyone! This is <span class="highlight">Abdul Samad</span> from Karachi, Pakistan.
+      </p>
+      <p>
+        I'm a <span class="highlight">Student</span> and currently an undergraduate in
+        <span class="highlight">Bachelors of Computer Science</span> from Mohammad Ali Jinnah University.
+      </p>
+      <p>
+        I have completed <span class="highlight">MERN Stack Development</span> from <span class="highlight">SMIT
+          (Saylani Mass IT Training) 2024</span>.
+      </p>
+      <p>
+        I'm extremely passionate about <span class="highlight">Web Development</span> and specialize in <span
+          class="highlight">building modern applications</span>.
+        Creating scalable and interactive user experiences is what I love doing. Coding is not just my skill – it's my
+        passion! 💻🚀
+      </p>
+      <p>
+        Besides coding, I enjoy:
+      </p>
+      <ul style="color: var(--text-secondary); margin-left: 20px; line-height: 2;">
+        <li><span class="highlight">Play Football</span></li>
+        <li><span class="highlight">Being with Friends</span></li>
+        <li><span class="highlight">Watching Movies and Web Series</span></li>
+      </ul>
     </div>
-    
-        <h1 style="display: flex; justify-content: center; font-style: italic;   font-size: 3rem; color: #cd5ff8; font-weight: bolder; margin-top: 60px;" class="txtme"> My Skillset</h1>
-        <div class="skills">
-            <!-- <h1 class="txtme"> My Skillset</h1> -->
-            <div class="box-1">
-               <img style=" display: flex; justify-content: center; align-items: center;" src="black.png" height="210px" width="100%" alt="">
-               <!-- <br> <p style="display: flex; justify-content: center;">sadlfjd</p><br> -->
-<!-- <p style="color: #cd5ff8;">I will design websites and make the website more professional <br> beautiful, with the better creations.</p> -->
-               <!-- <p>safjjkasd</p> -->
-              
-               
-            </div>
-            <div class="box-2">
-                <img style=" display: flex; justify-content: center; align-items: center;" src="css.png" height="220px" width="100%" alt="">
-
-            </div>
-            <div class="box-3">
-                <img style=" display: flex; justify-content: center; align-items: center;" src="java.png" height="220px" width="100%" alt="">
-            </div>
-            <div class="box-4">
-                <img style=" display: flex; justify-content: center; align-items: center;" src="tailwindcss-logo.png" height="220px" width="100%" alt="">
-            </div>
-            
-        
+    <div class="imgsection">
+      <img src="assets/images/media.png" alt="Abdul Samad">
     </div>
- 
+  </section>
+
+  <!-- Skills Section -->
+  <div class="section-heading">
+    <h2>Professional <span class="highlight">Skillset</span></h2>
+  </div>
+
+  <div class="skills-grid">
+    <!-- Frontend Core -->
+    <div class="skill-card">
+      <i class="fa-brands fa-html5 skill-icon"></i>
+      <div class="skill-name">HTML 5</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-css3-alt skill-icon"></i>
+      <div class="skill-name">CSS 3</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-js skill-icon"></i>
+      <div class="skill-name">JavaScript</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-square-js skill-icon"></i>
+      <div class="skill-name">TypeScript</div>
+    </div>
+
+    <!-- Frameworks & Libraries -->
+    <div class="skill-card">
+      <i class="fa-brands fa-react skill-icon"></i>
+      <div class="skill-name">React</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-react skill-icon"></i>
+      <div class="skill-name">React Native</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-wind skill-icon"></i>
+      <div class="skill-name">Tailwind</div>
+    </div>
+
+    <!-- Backend & Tools -->
     
+    <div class="skill-card">
+      <i class="fa-solid fa-database skill-icon"></i>
+      <div class="skill-name">MySQL</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-solid fa-fire skill-icon"></i>
+      <div class="skill-name">Firebase</div>
+    </div>
+    <div class="skill-card">
+      <i class="fa-brands fa-github skill-icon"></i>
+      <div class="skill-name">GitHub</div>
+    </div>
+  </div>
 
-    <i class="fa-brands fa-html5"></i>
+  <!-- CTA Section -->
+  <div class="projects-cta">
+    <h2 style="color: white; margin-bottom: 30px; font-family: var(--font-heading);">
+      Now move on to some of my recent projects 🚀
+    </h2>
+    <a href="projects.html" class="projects-btn">
+      <i class="fa-solid fa-arrow-right"></i>
+      View My Projects
+    </a>
+  </div>
 
+  <script src="https://kit.fontawesome.com/7b403c5ea4.js" crossorigin="anonymous"></script>
 
-
-    <script src="https://kit.fontawesome.com/7b403c5ea4.js" crossorigin="anonymous"></script>
+  <!-- Navbar scroll effect -->
+  <script>
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
 </body>
+
 </html>

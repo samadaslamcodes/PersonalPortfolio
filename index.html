@@ -2,91 +2,142 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Abdul Samad - Front End Developer Portfolio. Passionate about creating beautiful web experiences.">
+  <title>Abdul Samad | Portfolio</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 
 <body>
-    <nav class="navbar">
-        <h1> Abdul's Portfolio</h1>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <h1>Abdul's Portfolio</h1>
+    <ul class="nav-list">
+      <li>
+        <a href="index.html">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="about.html">
+          <i class="fa-solid fa-user"></i>
+          <span>About Me</span>
+        </a>
+      </li>
+      <li>
+        <a href="projects.html">
+          <i class="fa-solid fa-tv"></i>
+          <span>Projects</span>
+        </a>
+      </li>
+      <li>
+        <a href="contact.html">
+          <i class="fa-brands fa-facebook-messenger"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-
-        <ul class="nav-list">
-            <li><a href=""> <i style="font-size: 0.9rem; padding-bottom: 8px;" class="fa-solid fa-house"></i>
-                    Home</a> </li>
-            <li><a href="./about.html"> <i style="padding: 4px;" class="fa-solid fa-user"></i>About Me</a></li>
-            <li><a href="./projects.html"> <i class="fa-solid fa-tv"></i> Projects</a></li>
-            <li><a href=""><i style="padding: 4px;" class="fa-solid fa-person"></i> My Journey</a></li>
-            <li style="color: white;"><a href=""> <i style="padding: 4px;"
-                        class="fa-brands fa-facebook-messenger"></i>Contact Me</a></li>
-
-
-        </ul>
-    </nav>
-
-    <div class="main-work">
-        <div class="first">
-            <h1 class="txt" style="color: white;">Hi There! I'm<br><span style="color: #cd5ff8; margin-top: 20px;">
-                    Abdul Samad<br> </span>
-                <span style="padding-top:32px; font-size: 2.2rem;"> I'm a passionate </span>
-                <!-- <div>Web Developer</div> -->
-                <div></div>
-                <span style="color: #cd5ff8;" id="element"></span>
-            </h1>
-            <!-- <span id="element"></span> -->
-        </div>
-        <div class="second">
-            <img style="margin-top: 60px; margin-left: 180px;" src="main.png" height="400px" alt="">
-        </div>
+  <!-- Hero Section -->
+  <section class="main-work">
+    <div class="first">
+      <p class="hero-greeting">Hi There! 👋</p>
+      <h1 class="hero-name">Abdul Samad</h1>
+      <p class="hero-subtitle">I'm a passionate</p>
+      <div class="typed-text">
+        <span id="element"></span>
+      </div>
     </div>
-    <div class="headonly">
-        <h1>Let Me <span style="color: #cd5ff8;"> INTRODUCE</span> Myself</h1>
+    <div class="second">
+      <img class="hero-image" src="assets/images/main.png" alt="Abdul Samad - Developer">
     </div>
-    <div class="aboutme">
-        <div class="can1">
-            <p class="merit"> I fell in love with <span style="font-style: italic; font-weight: bolder; color: #cd5ff8;" > programming</span>  and I have at least learnt something, I think… 🤷‍♂️
-            </p>
-            <p class="merit-1">
-                I am fluent in classics like <span style="color: #cd5ff8; font-style: italic; font-weight: bolder;"> Html, Css, Bootstrap, Tailwind, Javascript
-                </span>
-            </p>
-            <p class="merit-1"> I'm a 4th semester   undergraduate in <span style="font-style: italic; color: #cd5ff8; font-weight: bolder;"> Bachelors of Computer Science</span>  </p>
-            <p class="merit-1"> Pursing my <span style="font-style: italic; font-weight: bolder; color: #cd5ff8;">Bachelors Degree</span>  From <span style="font-style: italic; font-weight: bolder; color: #cd5ff8;"> Mohammad Ali Jinnah University</span> </p>
-            <p class="merit-1"> In the future, I hope to bring the best out of me by cracking the best possibility<br> of being a better <span style="font-style: italic; font-weight: bolder; color: #cd5ff8;">front end developer</span> </p>
-        </div>
-        <div class="can2">
-            <img style="margin-top: 50px;" src="pg2 pic.svg" height="260px" alt="">
-        </div>
+  </section>
+
+  <!-- Introduce Section -->
+  <div class="section-heading">
+    <h2>Let Me <span class="highlight">INTRODUCE</span> Myself</h2>
+  </div>
+
+  <section class="aboutme">
+    <div class="can1">
+      <div class="about-card">
+        <p class="about-text">
+          I fell in love with <span class="highlight">programming</span> and I have at least learnt something, I think…
+          🤷‍♂️
+        </p>
+        <p class="about-text">
+          I am fluent in classics like <span class="highlight">Building Mern stack webistes using Technologies like React JS 
+            , Firebase , MongoDB , Mobile App Dev Using React Native 
+          </span>
+        </p>
+        <p class="about-text">
+          I'm a 6th semester undergraduate in <span class="highlight">Bachelors of Computer Science</span>
+        </p>
+        <p class="about-text">
+          Pursuing my <span class="highlight">Bachelors Degree</span> from <span class="highlight">Mohammad Ali Jinnah
+            University</span>
+        </p>
+        <p class="about-text">
+          In the future, I hope to bring the best out of me by cracking the best possibility of being a better <span
+            class="highlight">FULL STACK DEVELOPER</span>
+        </p>
+      </div>
     </div>
-
-    <div class="content">
-        <div class="can5">
-        <h1 style="   font-size: 2.4Srem; font-style: normal; font-weight: lighter; font-family: sans-serif; flex-direction: column;">FIND ME ON </h1>
-        <p style=" font-size: 1rem; list-style: none; margin-top: 30px;">Feel Free to <a style="text-decoration: none;" href="" >connect </a> with me</p>
-        <i style="margin-top: 20px; font-size: 1.6rem; margin-left: 10px; cursor: pointer;" class="fa-brands fa-github"> <i style="padding: 10px; cursor: pointer;" class="fa-brands fa-twitter"></i><i style="padding: 10px; cursor: pointer;" class="fa-brands fa-linkedin"></i><i style="padding: 10px; cursor: pointer;" class="fa-brands fa-instagram"></i><i style="padding: 10px; cursor: pointer;" class="fa-brands fa-google"></i></i>
-        
+    <div class="can2">
+      <img class="about-image" src="assets/images/pg2 pic.svg" alt="About illustration">
     </div>
+  </section>
+
+  <!-- Social Section -->
+  <section class="content">
+    <h2 class="social-title">FIND ME ON</h2>
+    <p class="social-subtitle">Feel free to <a href="#">connect</a> with me</p>
+    <div class="social-icons">
+      <a href="https://github.com/samadaslamcodes" class="social-icon" aria-label="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="#" class="social-icon" aria-label="Twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="#" class="social-icon" aria-label="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://instagram.com/samad_____20" class="social-icon" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="mailto:samadcodes57@gmail.com" class="social-icon" aria-label="Google">
+        <i class="fa-brands fa-google"></i>
+      </a>
     </div>
+  </section>
 
+  <!-- Scripts -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Front End Developer', 'Deep Learner', 'UI Designer'],
+      typeSpeed: 50,
+      backSpeed: 30,
+      loop: true
+    });
 
-
-
-
-
-
-
-
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <!-- Setup and start animation! -->
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Developer', 'Front End Developer', 'Deep Learner'],
-            typeSpeed: 50,
-        });
-    </script>
-    <script src="https://kit.fontawesome.com/7b403c5ea4.js" crossorigin="anonymous"></script>
+    // Navbar scroll effect
+    window.addEventListener('scroll', function () {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/7b403c5ea4.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
