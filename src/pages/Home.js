@@ -56,6 +56,9 @@ function Home() {
               I am fluent in classics like <span className="highlight">Building Mern stack webistes using Technologies like React JS
                 , Firebase , MongoDB , Mobile App Dev Using React Native
               </span>
+              </p>
+                <p className="about-text">
+                I  also have  great hands on experience in  <span className="highlight">Python and its libaries Numpy, Pandas, Matplotib, Seaborn and AI/ML as well</span>
             </p>
             <p className="about-text">
               I'm a final year undergraduate student in <span className="highlight"> Bachelors of Computer Science</span>

@@ -29,16 +29,16 @@ function HrAssistant() {
         </div>
 
         <div className="project-info">
-          <h1 className="project-title">AI HR Assistant</h1>
+          <h1 className="project-title">SamadMatchAI HR ASSISTANT</h1>
 
           <div className="project-tech">
-            <span className="tech-tag">PYTHON</span>
-            <span className="tech-tag">FLASK</span>
-            <span className="tech-tag">AI/ML</span>
+            <span className="tech-tag">REACT</span>
+            <span className="tech-tag">JAVASCRIPT</span>
+            <span className="tech-tag">TAILWIND CSS</span>
           </div>
 
           <p className="project-description">
-            An intelligent HR tool designed for automated resume screening and job compatibility analysis using AI. 
+            An intelligent HR tool named as SamadMatchAI designed for automated resume screening and job compatibility analysis using AI.
             It simplifies the recruitment process by analyzing candidates and scoring them against job requirements.
           </p>
 
