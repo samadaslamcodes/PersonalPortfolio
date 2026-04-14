@@ -21,7 +21,7 @@ function HrAssistant() {
         <div className="project-preview">
           <div className="demo-frame">
             <iframe
-              src="https://hr-assistant-production.up.railway.app"
+              src="https://hr-assistant-app-by-samad.netlify.app/"
               title="HR Assistant Demo"
               loading="lazy"
             ></iframe>
