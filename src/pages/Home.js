@@ -53,12 +53,12 @@ function Home() {
               🤷‍♂️
             </p>
             <p className="about-text">
-              I am fluent in classics like <span className="highlight">Building Mern stack webistes using Technologies like React JS 
-                , Firebase , MongoDB , Mobile App Dev Using React Native 
+              I am fluent in classics like <span className="highlight">Building Mern stack webistes using Technologies like React JS
+                , Firebase , MongoDB , Mobile App Dev Using React Native
               </span>
             </p>
             <p className="about-text">
-              I'm a 6th semester undergraduate in <span className="highlight">Bachelors of Computer Science</span>
+              I'm a final year undergraduate student in <span className="highlight"> Bachelors of Computer Science</span>
             </p>
             <p className="about-text">
               Pursuing my <span className="highlight">Bachelors Degree</span> from <span className="highlight">Mohammad Ali Jinnah
@@ -66,7 +66,7 @@ function Home() {
             </p>
             <p className="about-text">
               In the future, I hope to bring the best out of me by cracking the best possibility of being a better <span
-                className="highlight">FULL STACK DEVELOPER</span>
+                className="highlight">Software Engineer</span>
             </p>
           </div>
         </div>
@@ -82,10 +82,7 @@ function Home() {
           <a href="https://github.com/samadaslamcodes" className="social-icon" aria-label="GitHub">
             <i className="fa-brands fa-github"></i>
           </a>
-          <a href="#" className="social-icon" aria-label="Twitter">
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a href="#" className="social-icon" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/abdul-samad-598a713a4/" className="social-icon" aria-label="LinkedIn">
             <i className="fa-brands fa-linkedin"></i>
           </a>
           <a href="https://instagram.com/samad_____20" className="social-icon" aria-label="Instagram">

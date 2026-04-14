@@ -11,6 +11,8 @@ function About() {
     { icon: 'fa-brands fa-react', name: 'React Native' },
     { icon: 'fa-solid fa-wind', name: 'Tailwind' },
     { icon: 'fa-solid fa-database', name: 'MySQL' },
+    { icon: 'fa-brands fa-python', name: 'Python' },
+    { icon: 'fa-solid fa-leaf', name: 'MongoDB' },
     { icon: 'fa-solid fa-fire', name: 'Firebase' },
     { icon: 'fa-brands fa-github', name: 'GitHub' },
   ];
