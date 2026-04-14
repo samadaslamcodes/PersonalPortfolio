@@ -18,10 +18,10 @@ function Contact() {
       name: formRef.current.name.value,
       message: formRef.current.message.value,
       title: formRef.current.subject.value, // Mapping subject to title as requested
-      reply_to: formRef.current.email.value,
+      email: formRef.current.email.value,
     };
 
-    emailjs.send('service_x5o1wi5', '_ejs-test-mail-service_', templateParams)
+    emailjs.send('service_x5o1wi5', 'template_ky75cp3', templateParams)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setFeedback({ 
