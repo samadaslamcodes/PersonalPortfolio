@@ -7,7 +7,7 @@ function HrAssistant() {
     'AI-powered Job Compatibility Analysis',
     'Admin Panel for HR Managers',
     'Applicant Scoring System',
-    'Built with Python and Flask',
+    'Built with React and Javascript',
   ];
 
   return (

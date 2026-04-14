@@ -6,7 +6,7 @@ function Projects() {
     {
       id: 'salt-n-pepper',
       title: 'Salt & Pepper',
-      tech: ['React', 'NodeJS', 'Tailwind CSS'],
+      tech: ['React', 'Javascript', 'Tailwind CSS'],
       description: 'A responsive restaurant website showcasing a delicious menu with a modern dark theme.',
       features: ['Responsive', 'Modern UI', 'Menu'],
       image: '/assets/images/salt-pepper-preview.png'
@@ -14,7 +14,7 @@ function Projects() {
     {
       id: 'hr-assistant',
       title: 'AI HR Assistant',
-      tech: ['Python', 'Flask', 'AI/ML'],
+      tech: ['React', 'Javascript', 'Python'],
       description: 'An intelligent HR tool for automated resume screening and job compatibility analysis using AI.',
       features: ['CV Analysis', 'Admin Panel', 'Scoring'],
       image: '/assets/images/hr-assistant-preview.png'
