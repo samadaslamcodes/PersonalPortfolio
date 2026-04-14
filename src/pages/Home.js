@@ -4,10 +4,11 @@ function Home() {
   const typedRef = useRef(null);
 
   useEffect(() => {
+    let typed;
     const initTyped = async () => {
       const Typed = (await import('typed.js')).default;
       if (typedRef.current) {
-        new Typed('#typed', {
+        typed = new Typed(typedRef.current, {
           strings: ['Web Developer', 'Front End Developer', 'Deep Learner', 'UI Designer'],
           typeSpeed: 50,
           backSpeed: 30,
@@ -16,6 +17,12 @@ function Home() {
       }
     };
     initTyped();
+
+    return () => {
+      if (typed) {
+        typed.destroy();
+      }
+    };
   }, []);
 
   return (
@@ -26,7 +33,7 @@ function Home() {
           <h1 className="hero-name">Abdul Samad</h1>
           <p className="hero-subtitle">I'm a passionate</p>
           <div className="typed-text">
-            <span id="typed"></span>
+            <span ref={typedRef}></span>
           </div>
         </div>
         <div className="second">
