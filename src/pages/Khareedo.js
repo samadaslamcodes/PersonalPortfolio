@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-function Eshop() {
+function Khareedo() {
   const features = [
-    'Modern e-commerce storefront',
-    'Sleek purple gradient design',
-    'Shopping functionality including Cart and Wishlist',
-    'Product Categories and Order Management',
-    'Fully Responsive Design',
+    'Khareedo.PK a realtime marketplace for buying and selling products',
+    'User Authentication via Firebase',
+    'Product listing with image uploads',
+    'Category-based filtering (Mobiles, Cars, etc.)',
+    'Real-time database integration',
+    'Responsive design with Tailwind CSS',
   ];
 
   return (
@@ -21,25 +22,27 @@ function Eshop() {
         <div className="project-preview">
           <div className="demo-frame">
             <iframe
-              src="https://ecommercewebsite-nu-rose.vercel.app"
-              title="E.SHOP Demo"
+              src="https://khareedo-pk.netlify.app/"
+              title="Khareedo.pk Demo"
               loading="lazy"
             ></iframe>
           </div>
         </div>
 
         <div className="project-info">
-          <h1 className="project-title">E.SHOP SAMAD.IO</h1>
+          <h1 className="project-title">KHAREEDO.PK</h1>
 
           <div className="project-tech">
-            <span className="tech-tag">HTML</span>
-            <span className="tech-tag">CSS</span>
-            <span className="tech-tag">JAVASCRIPT</span>
+            <span className="tech-tag">REACT</span>
+            <span className="tech-tag">FIREBASE</span>
+            <span className="tech-tag">TAILWIND CSS</span>
+            <span className="tech-tag">VITE</span>
           </div>
 
           <p className="project-description">
-            A modern e-commerce storefront showcasing a sleek purple gradient design and full shopping functionality.
-            Users can browse products, add them to wishlist or cart, and manage their orders.
+            A high-performance e commerece that allows users to buy and sell products across various categories. 
+            Built with React and powered by Firebase, it features a seamless user experience for listing ads, 
+            searching for products, and managing user profiles.
           </p>
 
           <ul className="project-features">
@@ -52,7 +55,7 @@ function Eshop() {
           </ul>
 
           <div className="project-buttons">
-            <a href="https://ecommercewebsite-nu-rose.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-primary">
+            <a href="https://khareedo-pk.netlify.app/" target="_blank" rel="noopener noreferrer" className="btn-primary">
               <i className="fa-solid fa-arrow-up-right-from-square"></i>
               Live Demo
             </a>
@@ -67,4 +70,4 @@ function Eshop() {
   );
 }
 
-export default Eshop;
+export default Khareedo;

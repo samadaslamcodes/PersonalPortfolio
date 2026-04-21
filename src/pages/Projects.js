@@ -20,12 +20,12 @@ function Projects() {
       image: '/assets/images/hr-assistant-preview.png'
     },
     {
-      id: 'eshop',
-      title: 'E.SHOP SAMAD.IO',
-      tech: ['HTML', 'CSS', 'JavaScript'],
-      description: 'A modern e-commerce storefront with a sleek purple gradient design and full shopping functionality.',
-      features: ['Categories', 'Wishlist', 'Cart', 'Orders'],
-      image: '/assets/images/eshop-preview.png'
+      id: 'khareedo',
+      title: 'Khareedo.pk',
+      tech: ['React', 'Firebase', 'Tailwind CSS'],
+      description: 'A high-performance e-commerce website with user authentication, product listings, and real-time database integration.',
+      features: ['Authentication', 'Categories', 'Real-time DB'],
+      image: '/assets/images/khareedo-preview.png'
     },
   ];
 

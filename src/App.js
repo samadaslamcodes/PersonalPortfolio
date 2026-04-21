@@ -6,7 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import SaltAndPepper from './pages/SaltAndPepper';
 import HrAssistant from './pages/HrAssistant';
-import Eshop from './pages/Eshop';
+import Khareedo from './pages/Khareedo';
 import Contact from './pages/Contact';
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/projects/salt-n-pepper" element={<SaltAndPepper />} />
         <Route path="/projects/hr-assistant" element={<HrAssistant />} />
-        <Route path="/projects/eshop" element={<Eshop />} />
+        <Route path="/projects/khareedo" element={<Khareedo />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
